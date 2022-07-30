@@ -2,7 +2,7 @@ const input = document.querySelector('.input');
 
 const output = document.querySelector('.output-res');
 
-const usd = 70;
+const usd = 74;
 
 
 function result() {
