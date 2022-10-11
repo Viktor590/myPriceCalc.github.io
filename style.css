@@ -1,0 +1,30 @@
+.container{
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.title{
+  font-size: 40px;
+  color: red;
+  text-align: center;
+}
+.input{
+  font-size: 20px;
+  color: red;
+  padding: 10px;
+  font-weight: bold;
+}
+.output{
+  font-size: 20px;
+  margin: 20px 20px 0 0;
+}
+.output-res{
+  font-weight: bold;
+  font-size: 25px;
+  color: red;
+}
+.input::-webkit-outer-spin-button,
+.input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+}
