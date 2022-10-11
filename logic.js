@@ -1,6 +1,6 @@
 const input = document.querySelector('.input');
 const output = document.querySelector('.output-res');
-const usd = 72;
+const usd = 73;
 
 function floor(price) {
   let enterPrice = Number(price)
