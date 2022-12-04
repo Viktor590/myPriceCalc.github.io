@@ -1,6 +1,6 @@
 const input = document.querySelector('.input');
 const output = document.querySelector('.output-res');
-const usd = 73;
+let usd = 73;
 
 function floor(price) {
   let enterPrice = Number(price)
@@ -49,9 +49,9 @@ function result() {
 function resSwitсh(value) {
   let a;
   if (value <= 1) {
-    a = 35
+    a = 40
   } else if (value > 1 && value <= 5) {
-    a = 45
+    a = 50
   } else if (value > 5 && value <= 10) {
     a = 60
   } else if (value > 10 && value <= 15) {
