@@ -53,9 +53,9 @@ function resSwitсh(value) {
   } else if (value > 1 && value <= 5) {
     a = 50
   } else if (value > 5 && value <= 10) {
-    a = 60
+    a = 70
   } else if (value > 10 && value <= 15) {
-    a = 80
+    a = 85
   } else if (value > 15 && value <= 20) {
     a = 100
   } else if (value > 20 && value <= 25) {
