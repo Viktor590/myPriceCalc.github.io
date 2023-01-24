@@ -1,6 +1,5 @@
 const input = document.querySelector('.input');
 const output = document.querySelector('.output-res');
-const output2 = document.querySelector('.output-res__tolyan');
 let usd = 80;
 
 function floor(price) {
@@ -46,7 +45,6 @@ function result() {
   const finishResTolyan = res + resSwitсh(input.value)
   console.log(value)
   output.innerHTML = floor(finishRes.toFixed())
-  output2.innerHTML = floor(finishResTolyan.toFixed()) + 50
 }
 
 function resSwitсh(value) {
