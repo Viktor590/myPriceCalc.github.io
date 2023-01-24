@@ -15,11 +15,13 @@
   padding: 10px;
   font-weight: bold;
 }
-.output{
+.output,
+.output-tolyan{
   font-size: 20px;
   margin: 20px 20px 0 0;
 }
-.output-res{
+.output-res,
+.output-res__tolyan{
   font-weight: bold;
   font-size: 25px;
   color: red;
