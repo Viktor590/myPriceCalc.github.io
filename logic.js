@@ -43,9 +43,10 @@ function result() {
   const value = Number(input.value) + .1
   const res = value * usd
   const finishRes = res + resSwitсh(input.value)
+  const finishResTolyan = res + resSwitсh(input.value)
   console.log(value)
   output.innerHTML = floor(finishRes.toFixed())
-  output2.innerHTML = floor(finishRes.toFixed()) + 50
+  output2.innerHTML = floor(finishResTolyan.toFixed()) + 50
 }
 
 function resSwitсh(value) {
