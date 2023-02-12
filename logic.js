@@ -1,6 +1,6 @@
 const input = document.querySelector('.input');
 const output = document.querySelector('.output-res');
-let usd = 80;
+let usd = 82;
 
 function floor(price) {
   let enterPrice = Number(price)
@@ -42,7 +42,6 @@ function result() {
   const value = Number(input.value) + .1
   const res = value * usd
   const finishRes = res + resSwitсh(input.value)
-  const finishResTolyan = res + resSwitсh(input.value)
   console.log(value)
   output.innerHTML = floor(finishRes.toFixed())
 }
