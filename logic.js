@@ -542,7 +542,7 @@ arr.map((a) => {
   // const status = 
   const item = document.createElement('li')
   let res = resultFromList(a.price)
-  item.innerHTML = `${a.name}: ${res}&#8381; ${a.region} ${a.data} ${a.status}`
+  item.innerHTML = `${a.name}: ${res}&#8381; ${a.region} до:${a.data} ${a.status}`
   list.append(item)
 })
 
