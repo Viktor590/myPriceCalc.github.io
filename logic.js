@@ -478,14 +478,14 @@ function floor(price) {
 
 function result() {
   const value = Number(input.value) + .1
-  const res = value * usd + 40
+  const res = value * usd
   const finishRes = res + resSwitсh(input.value)
   output.innerHTML = floor(finishRes.toFixed())
 }
 
 function resultFromList(price) {
   const value = Number(price) + .1
-  const res = value * usd
+  const res = value * usd + 40
   const finishRes = res + resSwitсh(price)
   return floor(finishRes.toFixed())
 }
