@@ -9,7 +9,7 @@ showBtn.addEventListener('click', () => {
     hiddenMenu() : showMenu()
 })
 
-let usd = 85;
+let usd = 88;
 
 const arr = [
   { "name": "A Frog's Job", "price": "0.17", "region": "A", "data": "4/7/", "status": "" },
@@ -458,11 +458,9 @@ const sortArr = arr.sort(function (a, b) {
   if (a.name < b.name) {
     return -1;
   }
-  // a должно быть равным b
   return 0;
 });
 
-// console.log(arr.length);
 function floor(price) {
   let enterPrice = Number(price)
   const lastNum = Number(enterPrice.toString().split('').pop())
@@ -520,7 +518,7 @@ function resSwitсh(value) {
   } else if (value > 1 && value <= 5) {
     a = 55
   } else if (value > 5 && value <= 10) {
-    a = 70
+    a = 75
   } else if (value > 10 && value <= 15) {
     a = 85
   } else if (value > 15 && value <= 20) {
@@ -528,7 +526,7 @@ function resSwitсh(value) {
   } else if (value > 20 && value <= 25) {
     a = 150
   } else if (value > 25) {
-    a = 180
+    a = 170
   }
   return a
 }
