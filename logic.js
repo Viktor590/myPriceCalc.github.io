@@ -9,7 +9,7 @@ showBtn.addEventListener('click', () => {
     hiddenMenu() : showMenu()
 })
 
-let usd = 88;
+let usd = 90;
 
 const arr = [
   { "name": "A Frog's Job", "price": "0.17", "region": "A", "data": "4/7/", "status": "" },
@@ -204,7 +204,7 @@ const arr = [
 ]
 
 
-console.log(arr.length);
+
 const sortArr = arr.sort(function (a, b) {
   if (a.name > b.name) {
     return 1;
@@ -268,9 +268,9 @@ function resultFromList(price) {
 function resSwitсh(value) {
   let a;
   if (value <= 1) {
-    a = 45
+    a = 50
   } else if (value > 1 && value <= 5) {
-    a = 55
+    a = 60
   } else if (value > 5 && value <= 10) {
     a = 75
   } else if (value > 10 && value <= 15) {
