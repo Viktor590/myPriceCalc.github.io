@@ -9,7 +9,7 @@ showBtn.addEventListener('click', () => {
     hiddenMenu() : showMenu()
 })
 
-let usd = 102;
+let usd = 94;
 
 const arr = [
   { "name": "7th Sector", "price": "0.57", "region": "A", "data": "6/27", "status": "" },
@@ -695,9 +695,9 @@ function resultFromList(price) {
 function resSwitсh(value) {
   let a;
   if (value <= 1) {
-    a = 55
+    a = 50
   } else if (value > 1 && value <= 5) {
-    a = 65
+    a = 60
   } else if (value > 5 && value <= 10) {
     a = 80
   } else if (value > 10 && value <= 15) {
