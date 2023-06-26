@@ -9,7 +9,7 @@ showBtn.addEventListener('click', () => {
     hiddenMenu() : showMenu()
 })
 
-let usd = 94;
+let usd = 93;
 
 const arr = [
   { "name": "7th Sector", "price": "0.57", "region": "A", "data": "6/27", "status": "" },
