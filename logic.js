@@ -9,7 +9,7 @@ showBtn.addEventListener('click', () => {
     hiddenMenu() : showMenu()
 })
 
-let usd = 93;
+let usd = 97;
 
 const arr = [
   { "name": "#Funtime", "price": "0.29", "region": "A", "data": "7/1/", "status": "" },
@@ -503,7 +503,7 @@ function result() {
 
 function resultFromList(price) {
   const value = Number(price) + .1
-  const res = value * usd + 40
+  const res = value * usd
   const finishRes = res + resSwitсh(price)
   return floor(finishRes.toFixed())
 }
@@ -511,15 +511,15 @@ function resultFromList(price) {
 function resSwitсh(value) {
   let a;
   if (value <= 1) {
-    a = 50
+    a = 55
   } else if (value > 1 && value <= 5) {
-    a = 60
+    a = 65
   } else if (value > 5 && value <= 10) {
     a = 80
   } else if (value > 10 && value <= 15) {
-    a = 95
-  } else if (value > 15 && value <= 20) {
     a = 100
+  } else if (value > 15 && value <= 20) {
+    a = 110
   } else if (value > 20 && value <= 25) {
     a = 150
   } else if (value > 25) {
