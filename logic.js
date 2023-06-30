@@ -9,7 +9,7 @@ showBtn.addEventListener('click', () => {
     hiddenMenu() : showMenu()
 })
 
-let usd = 97;
+let usd = 98;
 
 const arr = [
   { "name": "#Funtime", "price": "0.29", "region": "A", "data": "7/1/", "status": "" },
