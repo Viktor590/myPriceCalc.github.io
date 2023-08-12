@@ -9,7 +9,7 @@ showBtn.addEventListener('click', () => {
     hiddenMenu() : showMenu()
 })
 
-let usd = 105;
+let usd = 108;
 
 const arr = [
   { "name": "A Plague Tale Bundle", "price": "19.98", "region": "T", "data": "8/15", "status": "GOLD" },
