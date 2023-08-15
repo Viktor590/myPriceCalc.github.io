@@ -332,19 +332,19 @@ function resultFromList(price) {
 function resSwitсh(value) {
   let a;
   if (value <= 1) {
-    a = 55
-  } else if (value > 1 && value <= 5) {
     a = 65
-  } else if (value > 5 && value <= 10) {
+  } else if (value > 1 && value <= 5) {
     a = 80
+  } else if (value > 5 && value <= 10) {
+    a = 95
   } else if (value > 10 && value <= 15) {
-    a = 100
+    a = 130
   } else if (value > 15 && value <= 20) {
-    a = 110
+    a = 145
   } else if (value > 20 && value <= 25) {
-    a = 150
+    a = 190
   } else if (value > 25) {
-    a = 170
+    a = 210
   }
   return a
 }
