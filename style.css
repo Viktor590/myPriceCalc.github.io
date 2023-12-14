@@ -1,51 +1,58 @@
-.container{
+.container {
   max-width: 1000px;
   margin: 0 auto;
   padding: 0 20px;
 }
 
-.title{
+.title {
   font-size: 40px;
   color: red;
   text-align: center;
 }
-.input{
+
+.input {
   font-size: 20px;
   color: red;
   padding: 10px;
   font-weight: bold;
 }
-.output{
+
+.output,
+.output2 {
   display: flex;
   font-size: 20px;
   margin: 20px 20px 0 0;
 }
+
 .output-res,
-.output-res__tolyan{
+.output-res__tolyan {
   font-weight: bold;
   font-size: 25px;
   color: red;
 }
+
 .input::-webkit-outer-spin-button,
 .input::-webkit-inner-spin-button {
-    -webkit-appearance: none;
+  -webkit-appearance: none;
 }
 
-li{
+li {
   list-style-type: none;
   margin-bottom: 7px;
 }
 
-.list{
- display: none;
- font-size: 18px; 
+.list {
+  display: none;
+  font-size: 18px;
 }
-.list.active{
+
+.list.active {
   margin: 0;
   padding: 0;
   display: block;
 }
-.show{
+
+.show {
   font-size: 20px;
   background: greenyellow;
   border: none;
