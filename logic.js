@@ -699,19 +699,38 @@ function result() {
   const value = Number(input.value) + .1
   const res = value * usd
   const finishRes = res + resSwitсh(input.value)
+  const finishResTolyan = res + resSwitсh2(input.value)
+
   output.innerHTML = floor(finishRes.toFixed())
-  output2.innerHTML = floor(finishRes.toFixed()) + 40
-
+  output2.innerHTML = floor(finishResTolyan.toFixed()) + 40
 }
 
-function resultFromList(price) {
-  const value = Number(price) + .1
-  const res = value * usd + 40
-  const finishRes = res + resSwitсh(price)
-  return floor(finishRes.toFixed())
-}
+
+
+
 
 function resSwitсh(value) {
+  let a;
+
+  if (value <= 1) {
+    a = 60
+  } else if (value > 1 && value <= 5) {
+    a = 80
+  } else if (value > 5 && value <= 10) {
+    a = 130
+  } else if (value > 10 && value <= 15) {
+    a = 155
+  } else if (value > 15 && value <= 20) {
+    a = 170
+  } else if (value > 20 && value <= 25) {
+    a = 220
+  } else if (value > 25) {
+    a = 250
+  }
+  return a
+}
+
+function resSwitсh2(value) {
   let a;
 
   if (value <= 1) {
@@ -754,6 +773,13 @@ sortArr.map((a) => {
   // &#8381; ${ flag } до:${ arrData }${ a.status }
   list.append(item)
 })
+
+function resultFromList(price) {
+  const value = Number(price) + .1
+  const res = value * usd + 40
+  const finishRes = res + resSwitсh2(price)
+  return floor(finishRes.toFixed())
+}
 // 
 function showMenu() {
   showBtn.classList.add('active')

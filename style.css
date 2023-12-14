@@ -24,11 +24,16 @@
   margin: 20px 20px 0 0;
 }
 
-.output-res,
-.output-res__tolyan {
+.output-res {
   font-weight: bold;
   font-size: 25px;
   color: red;
+}
+
+.output-res2 {
+  font-weight: bold;
+  font-size: 25px;
+  color: green;
 }
 
 .input::-webkit-outer-spin-button,
