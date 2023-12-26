@@ -1375,8 +1375,8 @@ sortArr.map((a) => {
 
 function resultFromList(price) {
   const value = Number(price) + .1
-  const res = value * usd + 10
-  const finishRes = res + resSwitсh(price)
+  const res = value * usd + 40
+  const finishRes = res + resSwitсh2(price)
   return floor(finishRes.toFixed())
 }
 // 
