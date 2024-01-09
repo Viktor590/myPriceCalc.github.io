@@ -10,34 +10,41 @@
   text-align: center;
 }
 
-.input {
+.arg-input,
+.tr-input {
   font-size: 20px;
   color: red;
   padding: 10px;
   font-weight: bold;
 }
 
-.output,
-.output2 {
+.arg {
+  margin-bottom: 40px;
+}
+
+.arg-output,
+.tr-output {
   display: flex;
   font-size: 20px;
   margin: 20px 20px 0 0;
 }
 
-.output-res {
+.arg-output_res {
   font-weight: bold;
   font-size: 25px;
   color: red;
 }
 
-.output-res2 {
+.tr-output_res2 {
   font-weight: bold;
   font-size: 25px;
   color: green;
 }
 
-.input::-webkit-outer-spin-button,
-.input::-webkit-inner-spin-button {
+.arg-input::-webkit-outer-spin-button,
+.arg-input::-webkit-inner-spin-button,
+.tr-input::-webkit-outer-spin-button,
+.tr-input::-webkit-inner-spin-button {
   -webkit-appearance: none;
 }
 
