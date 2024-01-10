@@ -679,25 +679,25 @@ function resSwitсhArg(value) {
 
   if (value <= 1) {
     a = 60
-    percent = 65
+    percent = 45
   } else if (value > 1 && value <= 5) {
     a = 80
-    percent = 55
+    percent = 40
   } else if (value > 5 && value <= 10) {
     a = 110
-    percent = 45
+    percent = 35
   } else if (value > 10 && value <= 15) {
     a = 135
-    percent = 40
+    percent = 30
   } else if (value > 15 && value <= 20) {
     a = 120
-    percent = 40
+    percent = 25
   } else if (value > 20 && value <= 25) {
     a = 200
-    percent = 35
+    percent = 25
   } else if (value > 25) {
     a = 230
-    percent = 35
+    percent = 25
   }
   return a
 }
