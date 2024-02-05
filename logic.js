@@ -1044,7 +1044,7 @@ function resultTr() {
   const res = value * usd
   const finishRes = res + resSwitсhTr(tr_input.value)
   tr_output.innerHTML = floor(finishRes.toFixed())
-  tr_output2.innerHTML = floor(finishRes.toFixed()) + 10
+  tr_output2.innerHTML = floor(finishRes.toFixed()) + 40
 }
 
 
