@@ -1036,7 +1036,7 @@ function resultArg() {
   const res = newValue * usd
   const finishRes = res + resSwitсhArg(newValue)
   arg_output.innerHTML = floor(finishRes.toFixed())
-  arg_output2.innerHTML = floor(finishRes.toFixed()) + 10
+  arg_output2.innerHTML = floor(finishRes.toFixed()) + 40
 }
 
 function resultTr() {
