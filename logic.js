@@ -21,6 +21,8 @@ let percent;
 const arr = [
   { "name": "2K Ball N’ Brawl Bundle", "price": "1.43", "flag": "🇦🇷", "date": "20.02", "status": "" },
   { "name": "50 Years (for Windows 10)", "price": "0.05", "flag": "🇦🇷", "date": "13.02", "status": "" },
+  { "name": "A Time Traveller's Guide To Past Delicacies (Xbox Series X|S)", "price": "0.07", "flag": "🇦🇷", "date": "21.02", "status": "" },
+  { "name": "A Time Traveller's Guide To Past Delicacies", "price": "0.07", "flag": "🇦🇷", "date": "21.02", "status": "" },
   { "name": "ABZU", "price": "0.09", "flag": "🇦🇷", "date": "13.02", "status": "" },
   { "name": "ACE COMBAT™ 7: SKIES UNKNOWN - TOP GUN: Maverick Edition", "price": "2.47", "flag": "🇹🇷", "date": "13.02", "status": "" },
   { "name": "ACE COMBAT™ 7: SKIES UNKNOWN", "price": "1.49", "flag": "🇹🇷", "date": "13.02", "status": "" },
@@ -36,6 +38,7 @@ const arr = [
   { "name": "Airhead", "price": "8.91", "flag": "🇹🇷", "date": "11.02", "status": "" },
   { "name": "Alan Wake Remastered", "price": "0.49", "flag": "🇦🇷", "date": "13.02", "status": "" },
   { "name": "Alex Kidd in Miracle World DX", "price": "0.07", "flag": "🇦🇷", "date": "13.02", "status": "" },
+  { "name": "Alisa Developer's Cut", "price": "0.27", "flag": "🇦🇷", "date": "21.02", "status": "" },
   { "name": "Alone in the Dark - Digital Deluxe Edition", "price": "5.06", "flag": "🇦🇷", "date": "20.03", "status": "" },
   { "name": "Alone in the Dark", "price": "4.39", "flag": "🇦🇷", "date": "20.03", "status": "" },
   { "name": "Alphadia Genesis 1 & 2", "price": "0.18", "flag": "🇦🇷", "date": "15.02", "status": "" },
@@ -259,9 +262,10 @@ const arr = [
   { "name": "Dragon Age™: Inquisition - Game of the Year Edition", "price": "1.26", "flag": "🇹🇷", "date": "13.02", "status": "" },
   { "name": "Dragon's Dogma: Dark Arisen", "price": "2.97", "flag": "🇹🇷", "date": "13.02", "status": "" },
   { "name": "DreamWorks Dragons Dawn of New Riders", "price": "1.31", "flag": "🇦🇷", "date": "13.02", "status": "" },
+  { "name": "Dungeonoid 2 Awakening", "price": "3.26", "flag": "🇦🇷", "date": "22.02", "status": "" },
   { "name": "Dungeons 3 - Complete Collection", "price": "0.36", "flag": "🇦🇷", "date": "13.02", "status": "" },
-  { "name": "Dungeons 4 - Digital Deluxe Edition", "price": "15.75", "flag": "🇦🇷", "date": "07.02", "status": "" },
-  { "name": "Dungeons 4", "price": "12.37", "flag": "🇦🇷", "date": "07.02", "status": "" },
+  { "name": "Dungeons 4 - Digital Deluxe Edition", "price": "14.0", "flag": "🇦🇷", "date": "16.11", "status": "" },
+  { "name": "Dungeons 4", "price": "12.37", "flag": "🇦🇷", "date": "13.02", "status": "" },
   { "name": "Dying Light 2 Stay Human - Deluxe Edition", "price": "23.25", "flag": "🇹🇷", "date": "13.02", "status": "" },
   { "name": "Dying Light: The Following - Enhanced Edition", "price": "5.4", "flag": "🇹🇷", "date": "14.02", "status": "" },
   { "name": "EA SPORTS FC™ 24 Standard Edition Xbox One & Xbox Series X|S", "price": "13.86", "flag": "🇹🇷", "date": "31.12", "status": "" },
@@ -354,7 +358,6 @@ const arr = [
   { "name": "Gigantosaurus The Game", "price": "1.46", "flag": "🇦🇷", "date": "13.02", "status": "" },
   { "name": "Glam's Incredible Run: Escape from Dukha", "price": "0.04", "flag": "🇦🇷", "date": "13.02", "status": "" },
   { "name": "Gleamlight", "price": "0.06", "flag": "🇦🇷", "date": "13.02", "status": "" },
-  { "name": "Go Mecha Ball", "price": "1.67", "flag": "🇹🇷", "date": "09.02", "status": "" },
   { "name": "Goat Simulator 3 - Digital Downgrade Edition", "price": "2.0", "flag": "🇦🇷", "date": "01.06", "status": "" },
   { "name": "Goat Simulator: The GOATY", "price": "0.3", "flag": "🇦🇷", "date": "01.03", "status": "" },
   { "name": "Goat Simulator: Waste Of Space Bundle", "price": "0.14", "flag": "🇦🇷", "date": "01.03", "status": "" },
@@ -374,7 +377,6 @@ const arr = [
   { "name": "Guilty Gear -Strive- Daredevil Edition", "price": "7.09", "flag": "🇦🇷", "date": "13.02", "status": "" },
   { "name": "Guilty Gear -Strive-", "price": "1.77", "flag": "🇦🇷", "date": "13.02", "status": "" },
   { "name": "Gunfire Reborn", "price": "0.94", "flag": "🇦🇷", "date": "13.02", "status": "" },
-  { "name": "HITMAN World of Assasination Upgrade Pack", "price": "3.5", "flag": "🇦🇷", "date": "07.02", "status": "" },
   { "name": "Halo 5: Guardians – Digital Deluxe Edition", "price": "6.5", "flag": "🇦🇷", "date": "01.06", "status": "" },
   { "name": "Halo 5: Guardians", "price": "2.72", "flag": "🇹🇷", "date": "13.02", "status": "" },
   { "name": "Halo Wars 2: Complete Edition", "price": "26.4", "flag": "🇹🇷", "date": "13.02", "status": "" },
@@ -413,18 +415,16 @@ const arr = [
   { "name": "Infinity Strash: DRAGON QUEST The Adventure of Dai", "price": "10.97", "flag": "🇦🇷", "date": "15.02", "status": "" },
   { "name": "Injustice™ 2 - Legendary Edition", "price": "1.9", "flag": "🇦🇷", "date": "13.02", "status": "" },
   { "name": "Injustice™ 2", "price": "0.19", "flag": "🇦🇷", "date": "13.02", "status": "" },
-  { "name": "Insurgency: Sandstorm - Deluxe Edition", "price": "17.0", "flag": "🇦🇷", "date": "01.06", "status": "" },
+  { "name": "Insurgency: Sandstorm - Deluxe Edition", "price": "17.0", "flag": "🇦🇷", "date": "20.02", "status": "" },
   { "name": "Insurgency: Sandstorm - Gold Edition", "price": "25.0", "flag": "🇦🇷", "date": "01.06", "status": "" },
   { "name": "Insurgency: Sandstorm - Ultimate Edition", "price": "29.0", "flag": "🇦🇷", "date": "01.06", "status": "" },
   { "name": "It Takes Two - Digital Version", "price": "3.95", "flag": "🇹🇷", "date": "13.02", "status": "" },
   { "name": "Jeopardy!", "price": "0.09", "flag": "🇦🇷", "date": "13.02", "status": "" },
-  { "name": "Jett Rider - Reduce, reuse and BLAST IT OFF!", "price": "0.18", "flag": "🇦🇷", "date": "09.02", "status": "" },
   { "name": "JoJo Siwa: Worldwide Party", "price": "1.27", "flag": "🇦🇷", "date": "13.02", "status": "" },
   { "name": "JoJo's Bizarre Adventure All-Star Battle", "price": "2.78", "flag": "🇦🇷", "date": "15.02", "status": "" },
-  { "name": "JoJo's Bizarre Adventure: All-Star Battle R Deluxe Edition", "price": "7.8", "flag": "🇦🇷", "date": "01.06", "status": "" },
+  { "name": "JoJo's Bizarre Adventure: All-Star Battle R Deluxe Edition", "price": "7.8", "flag": "🇦🇷", "date": "15.02", "status": "" },
   { "name": "Joe Dever’s Lone Wolf Console Edition", "price": "0.02", "flag": "🇦🇷", "date": "13.02", "status": "" },
   { "name": "Journey to the Savage Planet", "price": "0.75", "flag": "🇦🇷", "date": "13.02", "status": "" },
-  { "name": "Jubilee", "price": "0.85", "flag": "🇹🇷", "date": "08.02", "status": "" },
   { "name": "Judgment", "price": "2.6", "flag": "🇹🇷", "date": "13.02", "status": "" },
   { "name": "Jumanji: The Video Game", "price": "1.53", "flag": "🇦🇷", "date": "13.02", "status": "" },
   { "name": "Jurassic World Evolution 2: Deluxe Edition", "price": "7.0", "flag": "🇦🇷", "date": "16.05", "status": "" },
@@ -445,6 +445,7 @@ const arr = [
   { "name": "Kerbal Space Program Enhanced Edition Complete", "price": "2.93", "flag": "🇹🇷", "date": "13.02", "status": "" },
   { "name": "Killing Floor 2", "price": "0.11", "flag": "🇦🇷", "date": "13.02", "status": "" },
   { "name": "Knight vs Giant: The Broken Excalibur", "price": "0.28", "flag": "🇦🇷", "date": "13.02", "status": "" },
+  { "name": "Kung Fu Fighting", "price": "0.02", "flag": "🇦🇷", "date": "20.02", "status": "" },
   { "name": "LEGO Star Wars II", "price": "0.06", "flag": "🇦🇷", "date": "13.02", "status": "" },
   { "name": "LEGO® 2K Drive Awesome Edition", "price": "20.69", "flag": "🇹🇷", "date": "13.02", "status": "" },
   { "name": "LEGO® 2K Drive Awesome Rivals Edition", "price": "30.23", "flag": "🇹🇷", "date": "20.02", "status": "" },
@@ -546,7 +547,6 @@ const arr = [
   { "name": "Mortal Kombat 11", "price": "0.28", "flag": "🇦🇷", "date": "13.02", "status": "" },
   { "name": "MotoGP™21 - Xbox Series X|S", "price": "1.87", "flag": "🇦🇷", "date": "13.02", "status": "" },
   { "name": "MotoGP™21", "price": "1.87", "flag": "🇦🇷", "date": "13.02", "status": "" },
-  { "name": "Moving Out 2", "price": "7.49", "flag": "🇹🇷", "date": "13.02", "status": "" },
   { "name": "Murdered: Soul Suspect", "price": "0.04", "flag": "🇦🇷", "date": "13.02", "status": "" },
   { "name": "My Friend Peppa Pig - Complete Edition", "price": "5.5", "flag": "🇦🇷", "date": "13.02", "status": "" },
   { "name": "My Time at Portia Deluxe Edition", "price": "1.4", "flag": "🇦🇷", "date": "01.10", "status": "" },
@@ -572,7 +572,6 @@ const arr = [
   { "name": "New Tales from the Borderlands", "price": "3.5", "flag": "🇦🇷", "date": "20.02", "status": "" },
   { "name": "New Tales from the Borderlands: Deluxe Edition", "price": "4.37", "flag": "🇦🇷", "date": "13.02", "status": "" },
   { "name": "Nexomon: Extinction", "price": "0.14", "flag": "🇦🇷", "date": "13.02", "status": "" },
-  { "name": "Ni no Kuni™ II: Revenant Kingdom - The Prince's Edition", "price": "3.56", "flag": "🇦🇷", "date": "15.02", "status": "" },
   { "name": "Ninja Warrior Epic Quest", "price": "0.04", "flag": "🇦🇷", "date": "31.05", "status": "" },
   { "name": "No Place Like Home", "price": "0.22", "flag": "🇦🇷", "date": "13.02", "status": "" },
   { "name": "Nordic Adventure Bundle", "price": "2.05", "flag": "🇹🇷", "date": "01.07", "status": "" },
@@ -613,7 +612,7 @@ const arr = [
   { "name": "Port Royale 4", "price": "2.0", "flag": "🇦🇷", "date": "13.02", "status": "" },
   { "name": "Portal Knights", "price": "0.07", "flag": "🇦🇷", "date": "13.02", "status": "" },
   { "name": "Prey®: Digital Deluxe Edition", "price": "7.52", "flag": "🇹🇷", "date": "12.03", "status": "" },
-  { "name": "Project Downfall", "price": "0.34", "flag": "🇦🇷", "date": "17.02", "status": "" },
+  { "name": "Prisonela DX", "price": "0.07", "flag": "🇦🇷", "date": "24.02", "status": "" },
   { "name": "Project Highrise: Architect's Edition", "price": "0.11", "flag": "🇦🇷", "date": "13.02", "status": "" },
   { "name": "Quantum Break", "price": "0.24", "flag": "🇦🇷", "date": "13.02", "status": "" },
   { "name": "Quantum Break", "price": "4.36", "flag": "🇹🇷", "date": "13.02", "status": "" },
@@ -643,7 +642,7 @@ const arr = [
   { "name": "Remnant 2", "price": "3.75", "flag": "🇦🇷", "date": "13.02", "status": "" },
   { "name": "Remnant II - Deluxe Edition", "price": "5.5", "flag": "🇦🇷", "date": "13.02", "status": "" },
   { "name": "Remnant II - Ultimate Edition", "price": "7.0", "flag": "🇦🇷", "date": "13.02", "status": "" },
-  { "name": "Remnant: From the Ashes - Complete Edition", "price": "1.5", "flag": "🇦🇷", "date": "01.12", "status": "" },
+  { "name": "Remnant: From the Ashes - Complete Edition", "price": "1.5", "flag": "🇦🇷", "date": "20.02", "status": "" },
   { "name": "Resident Evil 5", "price": "3.32", "flag": "🇹🇷", "date": "13.02", "status": "" },
   { "name": "Resident Evil 6", "price": "3.32", "flag": "🇹🇷", "date": "13.02", "status": "" },
   { "name": "Resident Evil 7 Gold Edition & Village Gold Edition", "price": "21.11", "flag": "🇹🇷", "date": "13.02", "status": "" },
@@ -672,7 +671,7 @@ const arr = [
   { "name": "SAMURAI WARRIORS 5", "price": "21.43", "flag": "🇹🇷", "date": "13.02", "status": "" },
   { "name": "SCARLET NEXUS Ultimate Edition", "price": "1.25", "flag": "🇦🇷", "date": "15.02", "status": "" },
   { "name": "SCARLET NEXUS", "price": "0.75", "flag": "🇦🇷", "date": "15.02", "status": "" },
-  { "name": "SD GUNDAM BATTLE ALLIANCE Deluxe Edition", "price": "9.0", "flag": "🇦🇷", "date": "16.05", "status": "" },
+  { "name": "SD GUNDAM BATTLE ALLIANCE Deluxe Edition", "price": "9.0", "flag": "🇦🇷", "date": "15.02", "status": "" },
   { "name": "SD GUNDAM BATTLE ALLIANCE", "price": "1.97", "flag": "🇦🇷", "date": "15.02", "status": "" },
   { "name": "SOULCALIBUR VI", "price": "0.37", "flag": "🇦🇷", "date": "13.02", "status": "" },
   { "name": "STAR WARS Battlefront", "price": "0.07", "flag": "🇦🇷", "date": "13.02", "status": "" },
@@ -688,7 +687,6 @@ const arr = [
   { "name": "SUPER BOMBERMAN R", "price": "0.44", "flag": "🇦🇷", "date": "13.02", "status": "" },
   { "name": "SWORD ART ONLINE Alicization Lycoris Deluxe Edition", "price": "1.37", "flag": "🇦🇷", "date": "13.02", "status": "" },
   { "name": "SWORD ART ONLINE Last Recollection", "price": "8.84", "flag": "🇦🇷", "date": "15.02", "status": "" },
-  { "name": "Saga of the Moon Priestess", "price": "2.14", "flag": "🇦🇷", "date": "08.02", "status": "" },
   { "name": "Scott Pilgrim vs. The World™: The Game – Complete Edition", "price": "0.41", "flag": "🇦🇷", "date": "13.02", "status": "" },
   { "name": "ScreamRide", "price": "0.09", "flag": "🇦🇷", "date": "13.02", "status": "" },
   { "name": "ScreamRide", "price": "0.91", "flag": "🇹🇷", "date": "13.02", "status": "" },
@@ -705,6 +703,7 @@ const arr = [
   { "name": "Sherlock Holmes: Crimes and Punishments Redux", "price": "0.58", "flag": "🇦🇷", "date": "13.02", "status": "" },
   { "name": "Sherlock Holmes: The Devil's Daughter Redux", "price": "0.58", "flag": "🇦🇷", "date": "13.02", "status": "" },
   { "name": "Shining Resonance Refrain", "price": "1.25", "flag": "🇹🇷", "date": "15.02", "status": "" },
+  { "name": "Ship of Fools - Aquapocalypse Edition", "price": "12.5", "flag": "🇦🇷", "date": "13.02", "status": "" },
   { "name": "Shredders - 540INDY Edition", "price": "0.51", "flag": "🇦🇷", "date": "16.03", "status": "" },
   { "name": "Sid Meier's Civilization VI", "price": "1.71", "flag": "🇹🇷", "date": "20.02", "status": "" },
   { "name": "Sid Meier’s Civilization® VI Anthology", "price": "17.13", "flag": "🇹🇷", "date": "13.02", "status": "" },
@@ -736,7 +735,7 @@ const arr = [
   { "name": "Speedway Racing", "price": "0.44", "flag": "🇦🇷", "date": "13.02", "status": "" },
   { "name": "Spells & Secrets", "price": "0.38", "flag": "🇦🇷", "date": "13.02", "status": "" },
   { "name": "Spirit of the North: Enhanced Edition", "price": "0.09", "flag": "🇦🇷", "date": "13.02", "status": "" },
-  { "name": "Sports Pinball Bundle", "price": "0.11", "flag": "🇦🇷", "date": "09.02", "status": "" },
+  { "name": "Sports Pinball Bundle", "price": "0.11", "flag": "🇦🇷", "date": "17.02", "status": "" },
   { "name": "Spyro™ + Crash Remastered Game Bundle", "price": "6.71", "flag": "🇹🇷", "date": "13.02", "status": "" },
   { "name": "Spyro™ Reignited Trilogy", "price": "0.52", "flag": "🇦🇷", "date": "13.02", "status": "" },
   { "name": "Star Wars Battlefront II", "price": "0.07", "flag": "🇦🇷", "date": "13.02", "status": "" },
@@ -791,8 +790,7 @@ const arr = [
   { "name": "The Bard's Tale ARPG : Remastered and Resnarkled", "price": "0.27", "flag": "🇹🇷", "date": "13.02", "status": "" },
   { "name": "The Bard's Tale IV: Director's Cut", "price": "0.24", "flag": "🇦🇷", "date": "13.02", "status": "" },
   { "name": "The Bard's Tale Trilogy", "price": "0.17", "flag": "🇹🇷", "date": "13.02", "status": "" },
-  { "name": "The Callisto Protocol™ for Xbox One", "price": "1.65", "flag": "🇦🇷", "date": "13.02", "status": "" },
-  { "name": "The Callisto Protocol™ for Xbox Series X|S", "price": "2.06", "flag": "🇦🇷", "date": "13.02", "status": "" },
+  { "name": "The Callisto Protocol™ for Xbox One", "price": "5.45", "flag": "🇹🇷", "date": "13.02", "status": "" },
   { "name": "The Crew Motorfest Gold Edition", "price": "28.88", "flag": "🇹🇷", "date": "13.02", "status": "" },
   { "name": "The Crew™ Motorfest Deluxe Edition", "price": "26.4", "flag": "🇹🇷", "date": "13.02", "status": "" },
   { "name": "The Crew™ Motorfest Standard Edition - Cross-Gen Bundle", "price": "23.93", "flag": "🇹🇷", "date": "13.02", "status": "" },
@@ -802,8 +800,8 @@ const arr = [
   { "name": "The DioField Chronicle", "price": "3.5", "flag": "🇦🇷", "date": "15.02", "status": "" },
   { "name": "The Division 2 - Warlords of New York - Ultimate Edition", "price": "1.5", "flag": "🇦🇷", "date": "13.02", "status": "" },
   { "name": "The Division 2 - Warlords of New York Edition", "price": "1.12", "flag": "🇦🇷", "date": "13.02", "status": "" },
-  { "name": "The Elder Scrolls Online Collection: Necrom", "price": "21.0", "flag": "🇦🇷", "date": "22.06", "status": "" },
-  { "name": "The Elder Scrolls Online Deluxe Collection: Necrom", "price": "31.8", "flag": "🇦🇷", "date": "22.06", "status": "" },
+  { "name": "The Elder Scrolls Online Collection: Necrom", "price": "21.0", "flag": "🇦🇷", "date": "20.02", "status": "" },
+  { "name": "The Elder Scrolls Online Deluxe Collection: Necrom", "price": "31.8", "flag": "🇦🇷", "date": "20.02", "status": "" },
   { "name": "The Elder Scrolls V: Skyrim Anniversary Edition", "price": "5.23", "flag": "🇹🇷", "date": "13.02", "status": "" },
   { "name": "The Elder Scrolls V: Skyrim Special Edition", "price": "2.31", "flag": "🇹🇷", "date": "13.02", "status": "" },
   { "name": "The Escapists 2", "price": "1.23", "flag": "🇹🇷", "date": "13.02", "status": "" },
@@ -878,6 +876,13 @@ const arr = [
   { "name": "Trackmania® Turbo", "price": "0.1", "flag": "🇦🇷", "date": "13.02", "status": "" },
   { "name": "Trailmakers - Space Upgrade", "price": "0.47", "flag": "🇦🇷", "date": "16.02", "status": "" },
   { "name": "Trailmakers Deluxe Edition", "price": "0.54", "flag": "🇦🇷", "date": "16.02", "status": "" },
+  { "name": "Train Sim World® 4: Austrian Regional Edition", "price": "4.32", "flag": "🇹🇷", "date": "01.08", "status": "" },
+  { "name": "Train Sim World® 4: Deluxe Edition", "price": "14.0", "flag": "🇦🇷", "date": "01.08", "status": "" },
+  { "name": "Train Sim World® 4: Flying Scotsman Centenary Edition", "price": "6.5", "flag": "🇦🇷", "date": "01.08", "status": "" },
+  { "name": "Train Sim World® 4: German Regional Edition", "price": "4.32", "flag": "🇹🇷", "date": "01.08", "status": "" },
+  { "name": "Train Sim World® 4: Special Edition", "price": "21.0", "flag": "🇦🇷", "date": "01.08", "status": "" },
+  { "name": "Train Sim World® 4: UK Regional Edition", "price": "4.32", "flag": "🇹🇷", "date": "01.08", "status": "" },
+  { "name": "Train Sim World® 4: USA Regional Edition", "price": "4.32", "flag": "🇹🇷", "date": "01.08", "status": "" },
   { "name": "Transference™", "price": "0.11", "flag": "🇦🇷", "date": "13.02", "status": "" },
   { "name": "Transport Fever 2: Console Edition", "price": "4.87", "flag": "🇦🇷", "date": "13.02", "status": "" },
   { "name": "Treasure Hunter Simulator", "price": "0.1", "flag": "🇦🇷", "date": "13.02", "status": "" },
@@ -966,7 +971,7 @@ const arr = [
   { "name": "sCATch 2: The Painter Cat", "price": "0.07", "flag": "🇦🇷", "date": "10.02", "status": "" },
   { "name": "theHunter: Call of the Wild™ - Greenhorn Bundle", "price": "0.57", "flag": "🇦🇷", "date": "01.06", "status": "" },
   { "name": "theHunter: Call of the Wild™ - Master Hunter Bundle", "price": "0.86", "flag": "🇦🇷", "date": "01.06", "status": "" },
-  { "name": "theHunter: Call of the Wild™ - Seasoned Hunter Bundle", "price": "0.71", "flag": "🇦🇷", "date": "01.06", "status": "" }
+  { "name": "theHunter: Call of the Wild™ - Seasoned Hunter Bundle", "price": "0.71", "flag": "🇦🇷", "date": "01.06", "status": "" },
 
 ]
 
@@ -1023,7 +1028,7 @@ function resultArg() {
   const res = newValue * usd
   const finishRes = res + resSwitсhArg(newValue)
   arg_output.innerHTML = floor(finishRes.toFixed())
-  arg_output2.innerHTML = floor(finishRes.toFixed()) + 40
+  arg_output2.innerHTML = floor(finishRes.toFixed()) + 50
 }
 
 function resultTr() {
@@ -1031,7 +1036,7 @@ function resultTr() {
   const res = value * usd
   const finishRes = res + resSwitсhTr(tr_input.value)
   tr_output.innerHTML = floor(finishRes.toFixed())
-  tr_output2.innerHTML = floor(finishRes.toFixed()) + 40
+  tr_output2.innerHTML = floor(finishRes.toFixed()) + 50
 }
 
 
@@ -1136,7 +1141,7 @@ sortArr.map((a) => {
 function resultFromListArg(price) {
   const value = Number(price) + .1
   const newPrice = value + (value * resPercent(value)) / 100
-  const res = newPrice * usd + 40
+  const res = newPrice * usd + 50
   const finishRes = res + resSwitсhArg(newPrice)
 
   return floor(finishRes.toFixed())
@@ -1144,7 +1149,7 @@ function resultFromListArg(price) {
 
 function resultFromListTr(price) {
   const value = Number(price) + .1
-  const res = value * usd + 40
+  const res = value * usd + 50
   const finishRes = res + resSwitсhTr(value)
 
   return floor(finishRes.toFixed())
