@@ -692,7 +692,7 @@ const arr = [
   { "name": "ŌKAMI HD", "price": "3.68", "flag": "🇦🇷", "date": "19.03", "status": "" },
 ]
 
-let usd = 105;
+let usd = 100;
 
 console.log(arr.length);
 const sortArr = arr.sort(function (a, b) {
@@ -788,9 +788,9 @@ function resPercent(percent) {
   let a;
 
   if (percent <= 1) {
-    a = 110
+    a = 95
   } else if (percent > 1 && percent <= 5) {
-    a = 85
+    a = 80
   } else if (percent > 5 && percent <= 10) {
 
     a = 50
