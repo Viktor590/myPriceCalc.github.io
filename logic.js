@@ -692,7 +692,7 @@ const arr = [
   { "name": "ŌKAMI HD", "price": "3.68", "flag": "🇦🇷", "date": "19.03", "status": "" },
 ]
 
-let usd = 100;
+let usd = 103;
 
 console.log(arr.length);
 const sortArr = arr.sort(function (a, b) {
