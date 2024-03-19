@@ -799,10 +799,10 @@ function resPercent(percent) {
     a = 50
   } else if (percent > 15 && percent <= 20) {
 
-    a = 45
+    a = 50
   } else if (percent > 20 && percent <= 25) {
 
-    a = 45
+    a = 50
   } else if (percent > 25) {
 
     a = 40
