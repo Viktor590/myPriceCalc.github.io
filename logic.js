@@ -812,7 +812,7 @@ sortArr.map((a) => {
 function resultFromListArg(price) {
   const value = Number(price) + .1
   const newPrice = value + (value * resPercent(value)) / 100
-  const res = newPrice * usd + 10
+  const res = newPrice * usd + 50
   const finishRes = res + resSwitсhArg(newPrice)
 
   return floor(finishRes.toFixed())
@@ -820,7 +820,7 @@ function resultFromListArg(price) {
 
 function resultFromListTr(price) {
   const value = Number(price) + .1
-  const res = value * usd + 10
+  const res = value * usd + 50
   const finishRes = res + resSwitсhTr(value)
 
   return floor(finishRes.toFixed())
