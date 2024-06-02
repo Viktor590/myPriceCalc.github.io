@@ -1259,8 +1259,8 @@ sortArr.map((a) => {
     flag = '-'
   }
 
-  item.innerHTML = `${a.name}:${res} ${flag} до ${a.date}`
-  // 
+  item.innerHTML = `${a.name}:${res}&#8381 ${flag} ${a.status}`
+  // до ${a.date}
   list.append(item)
 })
 
