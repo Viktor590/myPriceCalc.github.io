@@ -1256,10 +1256,11 @@ sortArr.map((a) => {
     flag = "🇹🇷"
   } else {
     res = 'Уточнить стоимость в ЛС'
+    flag = '-'
   }
 
-  item.innerHTML = `${a.name}:${res}&#8381 ${flag} ${a.status}`
-  // до ${a.date}
+  item.innerHTML = `${a.name}:${res} ${flag} до ${a.date}`
+  // 
   list.append(item)
 })
 
