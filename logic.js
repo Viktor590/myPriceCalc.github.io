@@ -768,7 +768,7 @@ const arr = [
   { "name": "ザ・ハウス・オブ・ザ・デッド：リメイク", "price": "4.07", "flag": "🇯🇵", "date": "02.07", "status": "" },
 ]
 
-let usd = 105;
+let usd = 102;
 
 console.log(arr.length);
 const sortArr = arr.sort(function (a, b) {
@@ -892,7 +892,7 @@ function resSwitсhTr(value) {
   if (value <= 1) {
     a = 80
   } else if (value > 1 && value <= 5) {
-    a = 80
+    a = 70
   } else if (value > 5 && value <= 10) {
     a = 100
   } else if (value > 10 && value <= 15) {
