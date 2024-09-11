@@ -1089,7 +1089,7 @@ const arr = [
   { "name": "僕のヒーローアカデミア One 's Justice2 デラックスエディション", "price": "29.03", "flag": "🇯🇵", "date": "10.09", "status": "" }
 ]
 
-let usd = 107;
+let usd = 105;
 
 console.log(arr.length);
 const sortArr = arr.sort(function (a, b) {
@@ -1211,9 +1211,9 @@ function resSwitсhTr(value) {
   let a;
 
   if (value <= 1) {
-    a = 100
+    a = 90
   } else if (value > 1 && value <= 5) {
-    a = 100
+    a = 90
   } else if (value > 5 && value <= 10) {
     a = 130
   } else if (value > 10 && value <= 15) {
