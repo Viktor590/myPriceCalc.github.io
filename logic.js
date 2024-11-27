@@ -1363,7 +1363,7 @@ const arr = [
   { "name": "ドラゴンボールZ KAKAROT デラックススペシャルエディション", "price": "38.16", "flag": "🇯🇵", "date": "03.12", "status": "" }
 ]
 
-let usd = 111;
+let usd = 116;
 
 console.log(arr.length);
 const sortArr = arr.sort(function (a, b) {
@@ -1540,7 +1540,7 @@ function resultFromListArg(price) {
 
 function resultFromListTr(price) {
   const value = Number(price) + .1
-  const res = value * usd + 50
+  const res = value * usd + 20
   const finishRes = res + resSwitсhTr(value)
 
   return floor(finishRes.toFixed())
