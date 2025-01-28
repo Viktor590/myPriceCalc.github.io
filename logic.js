@@ -1297,7 +1297,7 @@ const arr = [
   { "name": "while True: learn()", "price": "0.83", "flag": "🇹🇷", "date": "04.02", "status": "" }
 ]
 
-let usd = 115;
+let usd = 111;
 
 console.log(arr.length);
 const sortArr = arr.sort(function (a, b) {
