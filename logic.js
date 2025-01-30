@@ -1479,7 +1479,7 @@ function resultFromListArg(price) {
   let a = 0;
   const value = Number(price) * 1.7
   a = resSwitсhArg(value)
-  const rub = value * usd + 20
+  const rub = value * usd + 50
   const finishRes = rub + a
   return floor(finishRes.toFixed())
 }
