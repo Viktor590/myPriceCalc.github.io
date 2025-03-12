@@ -1260,7 +1260,7 @@ function resultFromListArg(price) {
 
 function resultFromListTr(price) {
   const value = Number(price) + .1
-  const res = value * usd + 20
+  const res = value * usd + 50
   const finishRes = res + resSwitсhTr(value)
 
   return floor(finishRes.toFixed())
