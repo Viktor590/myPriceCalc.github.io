@@ -816,9 +816,6 @@ const arr = [
   { "name": "Vermintide - Digital Value Pack", "price": "2.27", "flag": "🇹🇷", "date": "07.03", "status": "" },
   { "name": "WRC Collection FIA World Rally Championship", "price": "8.12", "flag": "🇹🇷", "date": "30.08", "status": "" },
   { "name": "WW2 Rebuilder", "price": "0.94", "flag": "🇹🇷", "date": "20.05", "status": "" },
-  { "name": "War Thunder - "Tracks of Victory" Bundle", "price": "31.49", "flag": "🇨🇱", "date": "20.05", "status": "" },
-  { "name": "War Thunder - "Weapons of Victory" Bundle", "price": "43.11", "flag": "🇨🇱", "date": "20.05", "status": "" },
-  { "name": "War Thunder - "Wings of Victory" Bundle", "price": "31.49", "flag": "🇨🇱", "date": "20.05", "status": "" },
   { "name": "Warhammer 40,000: Darktide - Imperial Edition", "price": "9.36", "flag": "🇳🇬", "date": "", "status": "" },
   { "name": "Warhammer 40,000: Rogue Trader - Deluxe Edition", "price": "9.11", "flag": "🇪🇬", "date": "21.05", "status": " GP" },
   { "name": "Warhammer 40,000: Rogue Trader - Voidfarer Edition", "price": "14.1", "flag": "🇪🇬", "date": "21.05", "status": " GP" },
@@ -1029,7 +1026,7 @@ function resultFromListArg(price) {
 
 function resultFromListTr(price) {
   const value = Number(price) + .1
-  const res = value * usd + 50
+  const res = value * usd + 20
   const finishRes = res + resSwitсhTr(value)
 
   return floor(finishRes.toFixed())
